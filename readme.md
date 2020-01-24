@@ -142,7 +142,7 @@ Here are most of the commands you're going to use today and during your project.
 | `git push --set-upstream <remoteName> <branchName>` | Upload changes from to the remote (`-u` is shorthand for the option)   |
 | `git push`                                          | When upstream is set, can use command without options                  |
 
-#### You do: Merging and Merge Conflicts (20 min / 0:40)
+### You do: Merging and Merge Conflicts (20 min / 0:40)
 
 With a pair, follow along to this exercise on
 [Exercise: creating and resolving merge conflicts](https://git.generalassemb.ly/seir-1118/merge-conflicts).
@@ -267,10 +267,10 @@ $
 
 ```
 
-#### You Do: Feature Branching (15 min / 1:20)
+### You Do: Feature Branching (15 min / 1:20)
 
 With your pair, follow along with this
-[guided exercise on using feature branches](https://git.generalassemb.ly/dc-wdi-react-redux/feature-branches)
+[guided exercise on using feature branches](https://git.generalassemb.ly/seir-1118/feature-branches)
 
 ### Gitflow (15 min / 1:35)
 
