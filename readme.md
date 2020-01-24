@@ -353,7 +353,7 @@ Turn and discuss the following with your neighbor/pair:
 Your upcoming Project 3 will be a group project. In order for this project to be
 a success for all of you, it is **_vital_** that you decide (together) on a git
 workflow and plan you work. Review the
-[lesson on agile](https://git.generalassemb.ly/ga-wdi-lessons/agile) together.
+[lesson on agile](https://git.generalassemb.ly/seir-1118/agile) together.
 
 You will need to plan your work using everything we've taught you: ERDs, user
 stories, wireframes and a git workflow.
