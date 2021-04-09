@@ -1,3 +1,5 @@
+[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
+
 # Git Teams & Workflow
 
 ## Learning Objectives
@@ -7,7 +9,7 @@
 - Use branches and pull requests to isolate changes tied to specific features
 - Efficiently and correctly resolve merge conflicts
 
-## Framing (5 min / 0:05)
+## Framing
 
 Although you've all been using Git and Github for a couple months, you've
 largely been doing so individually. In the Real World™, you'll rarely develop a
@@ -20,7 +22,7 @@ practices, combined with good communication make collaboration easier and more
 efficient. In order to build up to that, we need to make sure we're building on
 a solid foundation of Git basics.
 
-## Review Git: Branching & Merging (15 min / 0:20)
+## Review Git: Branching & Merging
 
 ### Why Git?
 
@@ -142,21 +144,20 @@ Here are most of the commands you're going to use today and during your project.
 | `git push --set-upstream <remoteName> <branchName>` | Upload changes from to the remote (`-u` is shorthand for the option)   |
 | `git push`                                          | When upstream is set, can use command without options                  |
 
-### You do: Merging and Merge Conflicts (20 min / 0:40)
+### You do: Merging and Merge Conflicts
 
 With a pair, follow along to this exercise on
 [Exercise: creating and resolving merge conflicts](https://git.generalassemb.ly/seir-1118/merge-conflicts).
 
 
-## Break (10 min / 0:50)
 
-## Git Workflows (5 min / 0:55)
+## Git Workflows
 
 Git is an extremely flexible tool and you can use it in many different ways.
 You'll already be familiar with some of the following workflows, though maybe
 not by name. You'll also find many variations on the below workflows.
 
-### Centralized Workflow (5 min / 1:00)
+### Centralized Workflow
 
 The Centralized workflow is good for people just starting out with git: there is
 low overhead and it's easy to get started. The remote repo has only a single
@@ -178,7 +179,7 @@ Diagram](https://wac-cdn.atlassian.com/dam/jcr:0869c664-5bc1-4bf2-bef0-12f3814b3
 _Use this model when working alone on a project or with only one other
 collaborator and the project is small/insignificant._
 
-### Feature Branch Workflow (5 min / 1:05)
+### Feature Branch Workflow
 
 The Feature Branch model is very similar to the Centralized workflow but with
 one big difference: branches! The remote repo has a `master` branch and a branch
@@ -207,7 +208,7 @@ _Use this model when working on a small to medium sized project with others that
 doesn't require strict collaboration_
 
 
-### Gitflow (15 min / 1:35)
+### Gitflow
 
 The Gitflow workflow builds on the Feature Branch model by assigning very
 specific roles to different branches and providing strict guidelines for how
