@@ -206,71 +206,6 @@ for larger projects.
 _Use this model when working on a small to medium sized project with others that
 doesn't require strict collaboration_
 
-#### Example
-
-Archie and Betty are working on Project 3, and Archie is ready to push changes
-from his local branch to the shared remote repo.
-
-**_Archie:_**
-
-```bash
-# After all work in the feature branch is committed, checkout `master`
-archie in local-project-three on  archies-feature-branch
-$ git checkout master
-
-# Fetch any changes from the remote
-archie in local-project-three on  master
-$ git fetch --all
-
-# Pull down and merge any changes from the remote
-archie in local-project-three on  master
-$ git pull
-
-# Merge the feature branch into the local copy of `master` and resolve any conflicts
-archie in local-project-three on  master
-$ git merge archies-feature-branch
-
-archie in local-project-three on  master
-$ git push
-```
-
-After pushing the changes to the remote, Archie should communicate with the team
-that the remote has been updated.
-
-It is a good idea to fetch and pull changes as early and often as possible. Even
-if Betty is still working on her own features, she can fetch and even merge the
-latest commits from the remote to her local repo.
-
-**_Betty:_**
-
-```bash
-# Fetch any changes from the remote, using `--all` doesn't even need to change branches
-betty in local-project-three on  bettys-feature-branch
-$ git fetch --all
-
-# To pull the changes, should checkout `master` otherwise will pull into the active branch
-betty in local-project-three on  bettys-feature-branch
-$ git checkout master
-
-# Pull down and merge any changes from the remote
-betty in local-project-three on  master
-$ git pull
-
-# Since Betty is not ready to merge her changes to master, she can checkout the feature brach she was working on
-betty in local-project-three on  master
-$ git checkout bettys-feature-branch
-
-# Continue working on feature branch
-betty in local-project-three on  bettys-feature-branch
-$
-
-
-```
-
-### You Do: Feature Branching (15 min / 1:20)
-
-With your pair, follow along with this
-[guided exercise on using feature branches](https://git.generalassemb.ly/seir-1118/feature-branches)
 
 ### Gitflow (15 min / 1:35)
 
@@ -295,11 +230,6 @@ maintain and require more on-boarding for new team members.
 
 _Use this model when working on medium to large sized project with others,
 especially if working on a team of 5+ developers._
-
-#### You Do: Gitflow (10 min / 1:45)
-
-Grab a marker from the front of the classroom. As we go through each of the key
-steps in Gitflow draw a diagram on your table of how to execute that step.
 
 **The key steps in GitFlow are:**
 
@@ -337,62 +267,6 @@ as an outside contractor or freelancer._
 > From
 > [Atlassian - Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
 
-### Turn & Talk (10 min / 2:00)
-
-> 5 min work, 5 min review
-
-Turn and discuss the following with your neighbor/pair:
-
-1. What are some additional strengths and weaknesses of each workflow?
-2. Which do you think will make the most sense for your upcoming Project 3?
-
-## Software Development and Collaboration (10 min / 2:15)
-
-### Project Week: What does that mean for you?
-
-Your upcoming Project 3 will be a group project. In order for this project to be
-a success for all of you, it is **_vital_** that you decide (together) on a git
-workflow and plan you work. Review the
-[lesson on agile](https://git.generalassemb.ly/seir-1118/agile) together.
-
-You will need to plan your work using everything we've taught you: ERDs, user
-stories, wireframes and a git workflow.
-
-Spend the first part of project week deciding on what you're going to build.
-Finish your ERDs and save them to a planning directory in a GitHub Project on
-your project repository. Pick a git workflow and get it set up. Plan sprints (a
-day or two) with concrete goals on what everyone is going to finish by the end
-of the sprint. Regularly check in as a team to make sure everyone is still on
-track, if you have a blocker (something the team didn't foresee or plan for or
-something is more complex than you initially scoped) bring that to your check in
-and adjust your sprint schedule. Try pair programming on difficult tasks or
-blockers.
-
-### Do code reviews
-
-Jeff Atwood (co-founder of Stack Exchange and a smart dude) has written a
-[great summary](http://blog.codinghorror.com/code-reviews-just-do-it/) which I
-encourage you to read. The short version: code reviews can dramatically reduce
-the number of errors in our code.
-
-In addition, learning to read code critically is an important part of improving
-our own code. After all, to improve our own code, we must read it and look for
-ways to improve it.
-
-Additionally, many work environments practice some form of code review, so it's
-good to get practice in giving feedback to others now.
-
-Furthermore, Github allows us to comment directly on PRs, so we can easily
-incorporate informal code reviews into our workflow.
-
-## Closing (15 min / 2:30)
-
-### Review Questions
-
-- Identify the syntax needed to create a new branch. How about creating a new
-  branch and switching to it?
-- Why should you never work on the same files on different branches?
-- Explain the difference between rebase and merge
 
 ### Cheat Sheets
 
