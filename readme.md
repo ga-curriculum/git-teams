@@ -147,7 +147,7 @@ Here are most of the commands you're going to use today and during your project.
 ### You do: Merging and Merge Conflicts
 
 With a pair, follow along to this exercise on
-[Exercise: creating and resolving merge conflicts](https://git.generalassemb.ly/seir-1118/merge-conflicts).
+[Exercise: creating and resolving merge conflicts](https://git.generalassemb.ly/java-interapt-11-8/merge-conflicts).
 
 
 
